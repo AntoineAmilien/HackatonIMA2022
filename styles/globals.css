@@ -18,3 +18,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+svg{
+  fill: gainsboro;
+}
+
+path{
+  stroke: gray;
+}
+}
