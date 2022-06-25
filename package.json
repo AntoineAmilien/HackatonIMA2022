@@ -12,7 +12,8 @@
     "daisyui": "^2.17.0",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.33.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
