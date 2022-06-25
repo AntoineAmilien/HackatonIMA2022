@@ -66,5 +66,5 @@ export default function Mapbox() {
           return () => map.remove()
         }, [])
       
-        return <div ref={mapContainer}  />
+        return <div ref={mapContainer} className="h-full" />
       }
