@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -21,4 +25,5 @@ svg{
 
 path{
   stroke: gray;
+}
 }
