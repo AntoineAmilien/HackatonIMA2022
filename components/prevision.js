@@ -11,7 +11,6 @@ const Prevision = () => {
 
 
     const submit = () => {
-        console.log(validDateInput)
 
         const dateMaintenant = new Date()
         const dateSelect = new Date(validDateInput)
