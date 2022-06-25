@@ -26,3 +26,10 @@ svg{
 path{
   stroke: gray;
 }
+
+.marker {
+  background-image: url("../public/svg/icons8-home-64.png");
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
