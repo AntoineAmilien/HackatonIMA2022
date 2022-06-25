@@ -30,7 +30,7 @@ const clientBoard = () => {
 
                     <div>
                         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900">Bonjour !</h1>
-                        <h1 className="text-xl font-medium tracking-tight text-gray-900">Bienvenue sur votre plateforme PréColab, un outil IMA / IMH.</h1>
+                        <h1 className="text-xl font-medium tracking-tight text-gray-900">Bienvenue sur votre plateforme PréCollab, un outil IMA / IMH.</h1>
 
                     </div>
                 </div>
