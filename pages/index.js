@@ -11,7 +11,6 @@ export default function Home() {
       </Head>
 
       <main>
-        qertyuytr
       </main>
 
       <footer>
