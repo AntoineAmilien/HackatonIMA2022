@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>IMH - PréColab</title>
         <meta name="description" content="Outil IMH d'aide a la planification et a la gestion de sisnistre en fonction des previsions météos." />
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-
+        qertyuytr
       </main>
 
       <footer>
