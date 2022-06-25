@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "mapbox-gl": "^2.9.1",
+    "react-mapbox-gl": "^5.1.1"
     "@headlessui/react": "^1.6.5",
     "daisyui": "^2.17.0",
     "next": "12.1.6",
