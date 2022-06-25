@@ -17,48 +17,69 @@ export default function Mapbox() {
           const map = new mapboxgl.Map({
             container: mapContainer.current,
             style: "mapbox://styles/mapbox/streets-v11",
-            center: [2.20, 48.50],
-            zoom: 4,
+            center: [4.715659, 45.890043],
+            zoom: 8.1
           })
-      
-          // only want to work with the map after it has fully loaded
-          // if you try to add sources and layers before the map has loaded
-          // things will not work properly
-          map.on("load", () => {
-            // add mapbox terrain dem source for 3d terrain rendering
-           
-            // bus routes source
-            // another example of using a geojson source
-            // this time we are hitting an ESRI API that returns
-            // data in the geojson format
-            // see https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/#geojson
-            map.addSource("dept", {
+    
+          map.on("load", async () => {
+
+            const geojson = {
+              type: 'FeatureCollection',
+              features: [
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.835659, 45.764043]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                },
+              ]
+            };
+
+            map.addSource("dept-69", {
               type: "geojson",
               data:
-                "https://france-geojson.gregoiredavid.fr/repo/departements/56-morbihan/departement-56-morbihan.geojson",
+                "https://france-geojson.gregoiredavid.fr/repo/departements/69-rhone/departement-69-rhone.geojson",
             })
-      
-            // bus routes - line layer
-            // see https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#line
-            map.addLayer({
-              id: "bus-routes-fill",
-              type: "fill",
-              source: "dept",
-              paint: {
-                "fill-opacity": 0.3,
-                "fill-color": "#19d0d6",
-              },
+            map.addSource("city-69", {
+              type: "geojson",
+              data:
+                "https://france-geojson.gregoiredavid.fr/repo/departements/69-rhone/communes-69-rhone.geojson",
             })
 
             map.addLayer({
-                id: "bus-routes-line",
-                type: "line",
-                source: "dept",
-                paint: {
-                  "line-color": "#19d0d6",
-                  "line-width": 4,
-                },
-              })
+              id: "dept-69-fill",
+              type: "fill",
+              source: "dept-69",
+              paint: {
+                "fill-opacity": 0.2,
+                "fill-color": "#19d0d6",
+              },
+            })
+            map.addLayer({
+              id: "city-69-line",
+              type: "line",
+              source: "city-69",
+              paint: {
+                "line-color": "#4B4B4B",
+                "line-width": 1,
+              },
+            })
+
+            for (const feature of geojson.features) {
+              // create a HTML element for each feature
+              const el = document.createElement('div');
+              el.className = 'marker';
+            
+              // make a marker for each feature and add to the map
+              new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
+            }
+
+            map.resize()
       
           })
       
@@ -66,5 +87,5 @@ export default function Mapbox() {
           return () => map.remove()
         }, [])
       
-        return <div ref={mapContainer} className="h-full" />
+        return <div style={{height: '500px'}} className='w-full' ref={mapContainer}  />
       }
