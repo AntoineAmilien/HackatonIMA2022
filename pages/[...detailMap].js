@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react';
+import Mapbox from '../components/mapbox';
 
 export default function detailMap({dept,city}) {
 
   return (
-    <p>DetailMap</p>
+    <Mapbox />
   )
 }
 
