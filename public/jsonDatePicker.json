@@ -1,0 +1,932 @@
+[
+    {
+        "nbCollaborateursNecessaires": 620,
+        "nbCollaborateursPrevus": 48,
+        "nbSinistresPrevus": 2459,
+        "nbDepartementsImpactes": 34,
+        "nbProfessionnels": 634,
+        "nbParticuliers": 903,
+        "date": "2022-06-26",
+        "id": 1
+    },
+    {
+        "nbCollaborateursNecessaires": 707,
+        "nbCollaborateursPrevus": 439,
+        "nbSinistresPrevus": 2555,
+        "nbDepartementsImpactes": 49,
+        "nbProfessionnels": 361,
+        "nbParticuliers": 819,
+        "date": "2022-06-27",
+        "id": 2
+    },
+    {
+        "nbCollaborateursNecessaires": 268,
+        "nbCollaborateursPrevus": 115,
+        "nbSinistresPrevus": 1552,
+        "nbDepartementsImpactes": 70,
+        "nbProfessionnels": 948,
+        "nbParticuliers": 644,
+        "date": "2022-06-28",
+        "id": 3
+    },
+    {
+        "nbCollaborateursNecessaires": 562,
+        "nbCollaborateursPrevus": 623,
+        "nbSinistresPrevus": 2121,
+        "nbDepartementsImpactes": 21,
+        "nbProfessionnels": 126,
+        "nbParticuliers": 321,
+        "date": "2022-06-29",
+        "id": 4
+    },
+    {
+        "nbCollaborateursNecessaires": 751,
+        "nbCollaborateursPrevus": 460,
+        "nbSinistresPrevus": 1100,
+        "nbDepartementsImpactes": 26,
+        "nbProfessionnels": 203,
+        "nbParticuliers": 339,
+        "date": "2022-06-30",
+        "id": 5
+    },
+    {
+        "nbCollaborateursNecessaires": 369,
+        "nbCollaborateursPrevus": 451,
+        "nbSinistresPrevus": 510,
+        "nbDepartementsImpactes": 36,
+        "nbProfessionnels": 241,
+        "nbParticuliers": 977,
+        "date": "2022-07-01",
+        "id": 6
+    },
+    {
+        "nbCollaborateursNecessaires": 410,
+        "nbCollaborateursPrevus": 214,
+        "nbSinistresPrevus": 693,
+        "nbDepartementsImpactes": 55,
+        "nbProfessionnels": 265,
+        "nbParticuliers": 881,
+        "date": "2022-07-02",
+        "id": 7
+    },
+    {
+        "nbCollaborateursNecessaires": 264,
+        "nbCollaborateursPrevus": 281,
+        "nbSinistresPrevus": 2821,
+        "nbDepartementsImpactes": 2,
+        "nbProfessionnels": 835,
+        "nbParticuliers": 231,
+        "date": "2022-07-03",
+        "id": 8
+    },
+    {
+        "nbCollaborateursNecessaires": 210,
+        "nbCollaborateursPrevus": 665,
+        "nbSinistresPrevus": 679,
+        "nbDepartementsImpactes": 1,
+        "nbProfessionnels": 398,
+        "nbParticuliers": 246,
+        "date": "2022-07-04",
+        "id": 9
+    },
+    {
+        "nbCollaborateursNecessaires": 198,
+        "nbCollaborateursPrevus": 357,
+        "nbSinistresPrevus": 1764,
+        "nbDepartementsImpactes": 48,
+        "nbProfessionnels": 324,
+        "nbParticuliers": 556,
+        "date": "2022-07-05",
+        "id": 10
+    },
+    {
+        "nbCollaborateursNecessaires": 44,
+        "nbCollaborateursPrevus": 53,
+        "nbSinistresPrevus": 2546,
+        "nbDepartementsImpactes": 28,
+        "nbProfessionnels": 590,
+        "nbParticuliers": 635,
+        "date": "2022-07-06",
+        "id": 11
+    },
+    {
+        "nbCollaborateursNecessaires": 305,
+        "nbCollaborateursPrevus": 310,
+        "nbSinistresPrevus": 699,
+        "nbDepartementsImpactes": 44,
+        "nbProfessionnels": 473,
+        "nbParticuliers": 895,
+        "date": "2022-07-07",
+        "id": 12
+    },
+    {
+        "nbCollaborateursNecessaires": 380,
+        "nbCollaborateursPrevus": 137,
+        "nbSinistresPrevus": 1313,
+        "nbDepartementsImpactes": 5,
+        "nbProfessionnels": 955,
+        "nbParticuliers": 40,
+        "date": "2022-07-08",
+        "id": 13
+    },
+    {
+        "nbCollaborateursNecessaires": 193,
+        "nbCollaborateursPrevus": 678,
+        "nbSinistresPrevus": 2782,
+        "nbDepartementsImpactes": 44,
+        "nbProfessionnels": 172,
+        "nbParticuliers": 473,
+        "date": "2022-07-09",
+        "id": 14
+    },
+    {
+        "nbCollaborateursNecessaires": 340,
+        "nbCollaborateursPrevus": 275,
+        "nbSinistresPrevus": 653,
+        "nbDepartementsImpactes": 67,
+        "nbProfessionnels": 213,
+        "nbParticuliers": 520,
+        "date": "2022-07-10",
+        "id": 15
+    },
+    {
+        "nbCollaborateursNecessaires": 244,
+        "nbCollaborateursPrevus": 67,
+        "nbSinistresPrevus": 2868,
+        "nbDepartementsImpactes": 38,
+        "nbProfessionnels": 797,
+        "nbParticuliers": 994,
+        "date": "2022-07-11",
+        "id": 16
+    },
+    {
+        "nbCollaborateursNecessaires": 692,
+        "nbCollaborateursPrevus": 191,
+        "nbSinistresPrevus": 1046,
+        "nbDepartementsImpactes": 1,
+        "nbProfessionnels": 799,
+        "nbParticuliers": 151,
+        "date": "2022-07-12",
+        "id": 17
+    },
+    {
+        "nbCollaborateursNecessaires": 343,
+        "nbCollaborateursPrevus": 255,
+        "nbSinistresPrevus": 1635,
+        "nbDepartementsImpactes": 39,
+        "nbProfessionnels": 948,
+        "nbParticuliers": 681,
+        "date": "2022-07-13",
+        "id": 18
+    },
+    {
+        "nbCollaborateursNecessaires": 492,
+        "nbCollaborateursPrevus": 197,
+        "nbSinistresPrevus": 1252,
+        "nbDepartementsImpactes": 3,
+        "nbProfessionnels": 870,
+        "nbParticuliers": 901,
+        "date": "2022-07-14",
+        "id": 19
+    },
+    {
+        "nbCollaborateursNecessaires": 715,
+        "nbCollaborateursPrevus": 468,
+        "nbSinistresPrevus": 1542,
+        "nbDepartementsImpactes": 56,
+        "nbProfessionnels": 352,
+        "nbParticuliers": 636,
+        "date": "2022-07-15",
+        "id": 20
+    },
+    {
+        "nbCollaborateursNecessaires": 113,
+        "nbCollaborateursPrevus": 85,
+        "nbSinistresPrevus": 1357,
+        "nbDepartementsImpactes": 9,
+        "nbProfessionnels": 618,
+        "nbParticuliers": 767,
+        "date": "2022-07-16",
+        "id": 21
+    },
+    {
+        "nbCollaborateursNecessaires": 439,
+        "nbCollaborateursPrevus": 542,
+        "nbSinistresPrevus": 2350,
+        "nbDepartementsImpactes": 59,
+        "nbProfessionnels": 384,
+        "nbParticuliers": 395,
+        "date": "2022-07-17",
+        "id": 22
+    },
+    {
+        "nbCollaborateursNecessaires": 166,
+        "nbCollaborateursPrevus": 87,
+        "nbSinistresPrevus": 1009,
+        "nbDepartementsImpactes": 60,
+        "nbProfessionnels": 284,
+        "nbParticuliers": 643,
+        "date": "2022-07-18",
+        "id": 23
+    },
+    {
+        "nbCollaborateursNecessaires": 592,
+        "nbCollaborateursPrevus": 273,
+        "nbSinistresPrevus": 1391,
+        "nbDepartementsImpactes": 26,
+        "nbProfessionnels": 315,
+        "nbParticuliers": 381,
+        "date": "2022-07-19",
+        "id": 24
+    },
+    {
+        "nbCollaborateursNecessaires": 439,
+        "nbCollaborateursPrevus": 286,
+        "nbSinistresPrevus": 737,
+        "nbDepartementsImpactes": 47,
+        "nbProfessionnels": 517,
+        "nbParticuliers": 236,
+        "date": "2022-07-20",
+        "id": 25
+    },
+    {
+        "nbCollaborateursNecessaires": 659,
+        "nbCollaborateursPrevus": 499,
+        "nbSinistresPrevus": 2507,
+        "nbDepartementsImpactes": 37,
+        "nbProfessionnels": 425,
+        "nbParticuliers": 239,
+        "date": "2022-07-21",
+        "id": 26
+    },
+    {
+        "nbCollaborateursNecessaires": 586,
+        "nbCollaborateursPrevus": 222,
+        "nbSinistresPrevus": 797,
+        "nbDepartementsImpactes": 20,
+        "nbProfessionnels": 472,
+        "nbParticuliers": 963,
+        "date": "2022-07-22",
+        "id": 27
+    },
+    {
+        "nbCollaborateursNecessaires": 741,
+        "nbCollaborateursPrevus": 694,
+        "nbSinistresPrevus": 1204,
+        "nbDepartementsImpactes": 56,
+        "nbProfessionnels": 322,
+        "nbParticuliers": 644,
+        "date": "2022-07-23",
+        "id": 28
+    },
+    {
+        "nbCollaborateursNecessaires": 482,
+        "nbCollaborateursPrevus": 511,
+        "nbSinistresPrevus": 2142,
+        "nbDepartementsImpactes": 22,
+        "nbProfessionnels": 487,
+        "nbParticuliers": 769,
+        "date": "2022-07-24",
+        "id": 29
+    },
+    {
+        "nbCollaborateursNecessaires": 473,
+        "nbCollaborateursPrevus": 743,
+        "nbSinistresPrevus": 2004,
+        "nbDepartementsImpactes": 6,
+        "nbProfessionnels": 780,
+        "nbParticuliers": 250,
+        "date": "2022-07-25",
+        "id": 30
+    },
+    {
+        "nbCollaborateursNecessaires": 388,
+        "nbCollaborateursPrevus": 375,
+        "nbSinistresPrevus": 1208,
+        "nbDepartementsImpactes": 7,
+        "nbProfessionnels": 209,
+        "nbParticuliers": 585,
+        "date": "2022-07-26",
+        "id": 31
+    },
+    {
+        "nbCollaborateursNecessaires": 516,
+        "nbCollaborateursPrevus": 692,
+        "nbSinistresPrevus": 640,
+        "nbDepartementsImpactes": 35,
+        "nbProfessionnels": 206,
+        "nbParticuliers": 479,
+        "date": "2022-07-27",
+        "id": 32
+    },
+    {
+        "nbCollaborateursNecessaires": 269,
+        "nbCollaborateursPrevus": 292,
+        "nbSinistresPrevus": 1101,
+        "nbDepartementsImpactes": 28,
+        "nbProfessionnels": 13,
+        "nbParticuliers": 385,
+        "date": "2022-07-28",
+        "id": 33
+    },
+    {
+        "nbCollaborateursNecessaires": 90,
+        "nbCollaborateursPrevus": 64,
+        "nbSinistresPrevus": 806,
+        "nbDepartementsImpactes": 43,
+        "nbProfessionnels": 648,
+        "nbParticuliers": 585,
+        "date": "2022-07-29",
+        "id": 34
+    },
+    {
+        "nbCollaborateursNecessaires": 663,
+        "nbCollaborateursPrevus": 710,
+        "nbSinistresPrevus": 2467,
+        "nbDepartementsImpactes": 56,
+        "nbProfessionnels": 872,
+        "nbParticuliers": 355,
+        "date": "2022-07-30",
+        "id": 35
+    },
+    {
+        "nbCollaborateursNecessaires": 295,
+        "nbCollaborateursPrevus": 193,
+        "nbSinistresPrevus": 2885,
+        "nbDepartementsImpactes": 66,
+        "nbProfessionnels": 345,
+        "nbParticuliers": 417,
+        "date": "2022-07-31",
+        "id": 36
+    },
+    {
+        "nbCollaborateursNecessaires": 382,
+        "nbCollaborateursPrevus": 676,
+        "nbSinistresPrevus": 1577,
+        "nbDepartementsImpactes": 65,
+        "nbProfessionnels": 955,
+        "nbParticuliers": 340,
+        "date": "2022-08-01",
+        "id": 37
+    },
+    {
+        "nbCollaborateursNecessaires": 442,
+        "nbCollaborateursPrevus": 306,
+        "nbSinistresPrevus": 1281,
+        "nbDepartementsImpactes": 69,
+        "nbProfessionnels": 920,
+        "nbParticuliers": 286,
+        "date": "2022-08-02",
+        "id": 38
+    },
+    {
+        "nbCollaborateursNecessaires": 407,
+        "nbCollaborateursPrevus": 235,
+        "nbSinistresPrevus": 2273,
+        "nbDepartementsImpactes": 63,
+        "nbProfessionnels": 411,
+        "nbParticuliers": 318,
+        "date": "2022-08-03",
+        "id": 39
+    },
+    {
+        "nbCollaborateursNecessaires": 650,
+        "nbCollaborateursPrevus": 52,
+        "nbSinistresPrevus": 1459,
+        "nbDepartementsImpactes": 59,
+        "nbProfessionnels": 405,
+        "nbParticuliers": 983,
+        "date": "2022-08-04",
+        "id": 40
+    },
+    {
+        "nbCollaborateursNecessaires": 175,
+        "nbCollaborateursPrevus": 598,
+        "nbSinistresPrevus": 1173,
+        "nbDepartementsImpactes": 70,
+        "nbProfessionnels": 34,
+        "nbParticuliers": 755,
+        "date": "2022-08-05",
+        "id": 41
+    },
+    {
+        "nbCollaborateursNecessaires": 469,
+        "nbCollaborateursPrevus": 792,
+        "nbSinistresPrevus": 1821,
+        "nbDepartementsImpactes": 44,
+        "nbProfessionnels": 273,
+        "nbParticuliers": 765,
+        "date": "2022-08-06",
+        "id": 42
+    },
+    {
+        "nbCollaborateursNecessaires": 592,
+        "nbCollaborateursPrevus": 379,
+        "nbSinistresPrevus": 1898,
+        "nbDepartementsImpactes": 3,
+        "nbProfessionnels": 230,
+        "nbParticuliers": 921,
+        "date": "2022-08-07",
+        "id": 43
+    },
+    {
+        "nbCollaborateursNecessaires": 279,
+        "nbCollaborateursPrevus": 139,
+        "nbSinistresPrevus": 1784,
+        "nbDepartementsImpactes": 68,
+        "nbProfessionnels": 172,
+        "nbParticuliers": 674,
+        "date": "2022-08-08",
+        "id": 44
+    },
+    {
+        "nbCollaborateursNecessaires": 51,
+        "nbCollaborateursPrevus": 62,
+        "nbSinistresPrevus": 2897,
+        "nbDepartementsImpactes": 42,
+        "nbProfessionnels": 209,
+        "nbParticuliers": 843,
+        "date": "2022-08-09",
+        "id": 45
+    },
+    {
+        "nbCollaborateursNecessaires": 395,
+        "nbCollaborateursPrevus": 728,
+        "nbSinistresPrevus": 482,
+        "nbDepartementsImpactes": 8,
+        "nbProfessionnels": 881,
+        "nbParticuliers": 943,
+        "date": "2022-08-10",
+        "id": 46
+    },
+    {
+        "nbCollaborateursNecessaires": 748,
+        "nbCollaborateursPrevus": 722,
+        "nbSinistresPrevus": 2009,
+        "nbDepartementsImpactes": 14,
+        "nbProfessionnels": 912,
+        "nbParticuliers": 527,
+        "date": "2022-08-11",
+        "id": 47
+    },
+    {
+        "nbCollaborateursNecessaires": 140,
+        "nbCollaborateursPrevus": 301,
+        "nbSinistresPrevus": 828,
+        "nbDepartementsImpactes": 62,
+        "nbProfessionnels": 799,
+        "nbParticuliers": 435,
+        "date": "2022-08-12",
+        "id": 48
+    },
+    {
+        "nbCollaborateursNecessaires": 201,
+        "nbCollaborateursPrevus": 251,
+        "nbSinistresPrevus": 2495,
+        "nbDepartementsImpactes": 26,
+        "nbProfessionnels": 421,
+        "nbParticuliers": 439,
+        "date": "2022-08-13",
+        "id": 49
+    },
+    {
+        "nbCollaborateursNecessaires": 344,
+        "nbCollaborateursPrevus": 45,
+        "nbSinistresPrevus": 2041,
+        "nbDepartementsImpactes": 29,
+        "nbProfessionnels": 860,
+        "nbParticuliers": 246,
+        "date": "2022-08-14",
+        "id": 50
+    },
+    {
+        "nbCollaborateursNecessaires": 769,
+        "nbCollaborateursPrevus": 190,
+        "nbSinistresPrevus": 412,
+        "nbDepartementsImpactes": 6,
+        "nbProfessionnels": 533,
+        "nbParticuliers": 388,
+        "date": "2022-08-15",
+        "id": 51
+    },
+    {
+        "nbCollaborateursNecessaires": 503,
+        "nbCollaborateursPrevus": 101,
+        "nbSinistresPrevus": 1175,
+        "nbDepartementsImpactes": 42,
+        "nbProfessionnels": 202,
+        "nbParticuliers": 489,
+        "date": "2022-08-16",
+        "id": 52
+    },
+    {
+        "nbCollaborateursNecessaires": 741,
+        "nbCollaborateursPrevus": 800,
+        "nbSinistresPrevus": 2897,
+        "nbDepartementsImpactes": 7,
+        "nbProfessionnels": 696,
+        "nbParticuliers": 895,
+        "date": "2022-08-17",
+        "id": 53
+    },
+    {
+        "nbCollaborateursNecessaires": 160,
+        "nbCollaborateursPrevus": 316,
+        "nbSinistresPrevus": 1498,
+        "nbDepartementsImpactes": 52,
+        "nbProfessionnels": 623,
+        "nbParticuliers": 576,
+        "date": "2022-08-18",
+        "id": 54
+    },
+    {
+        "nbCollaborateursNecessaires": 467,
+        "nbCollaborateursPrevus": 590,
+        "nbSinistresPrevus": 1730,
+        "nbDepartementsImpactes": 46,
+        "nbProfessionnels": 834,
+        "nbParticuliers": 834,
+        "date": "2022-08-19",
+        "id": 55
+    },
+    {
+        "nbCollaborateursNecessaires": 225,
+        "nbCollaborateursPrevus": 477,
+        "nbSinistresPrevus": 2660,
+        "nbDepartementsImpactes": 50,
+        "nbProfessionnels": 347,
+        "nbParticuliers": 808,
+        "date": "2022-08-20",
+        "id": 56
+    },
+    {
+        "nbCollaborateursNecessaires": 95,
+        "nbCollaborateursPrevus": 462,
+        "nbSinistresPrevus": 1933,
+        "nbDepartementsImpactes": 70,
+        "nbProfessionnels": 813,
+        "nbParticuliers": 778,
+        "date": "2022-08-21",
+        "id": 57
+    },
+    {
+        "nbCollaborateursNecessaires": 276,
+        "nbCollaborateursPrevus": 267,
+        "nbSinistresPrevus": 1237,
+        "nbDepartementsImpactes": 36,
+        "nbProfessionnels": 143,
+        "nbParticuliers": 765,
+        "date": "2022-08-22",
+        "id": 58
+    },
+    {
+        "nbCollaborateursNecessaires": 501,
+        "nbCollaborateursPrevus": 227,
+        "nbSinistresPrevus": 2049,
+        "nbDepartementsImpactes": 4,
+        "nbProfessionnels": 231,
+        "nbParticuliers": 902,
+        "date": "2022-08-23",
+        "id": 59
+    },
+    {
+        "nbCollaborateursNecessaires": 223,
+        "nbCollaborateursPrevus": 625,
+        "nbSinistresPrevus": 1413,
+        "nbDepartementsImpactes": 58,
+        "nbProfessionnels": 270,
+        "nbParticuliers": 202,
+        "date": "2022-08-24",
+        "id": 60
+    },
+    {
+        "nbCollaborateursNecessaires": 740,
+        "nbCollaborateursPrevus": 369,
+        "nbSinistresPrevus": 2877,
+        "nbDepartementsImpactes": 7,
+        "nbProfessionnels": 441,
+        "nbParticuliers": 184,
+        "date": "2022-08-25",
+        "id": 61
+    },
+    {
+        "nbCollaborateursNecessaires": 596,
+        "nbCollaborateursPrevus": 596,
+        "nbSinistresPrevus": 596,
+        "nbDepartementsImpactes": 54,
+        "nbProfessionnels": 404,
+        "nbParticuliers": 991,
+        "date": "2022-08-26",
+        "id": 62
+    },
+    {
+        "nbCollaborateursNecessaires": 400,
+        "nbCollaborateursPrevus": 526,
+        "nbSinistresPrevus": 506,
+        "nbDepartementsImpactes": 68,
+        "nbProfessionnels": 337,
+        "nbParticuliers": 249,
+        "date": "2022-08-27",
+        "id": 63
+    },
+    {
+        "nbCollaborateursNecessaires": 561,
+        "nbCollaborateursPrevus": 150,
+        "nbSinistresPrevus": 1998,
+        "nbDepartementsImpactes": 16,
+        "nbProfessionnels": 381,
+        "nbParticuliers": 357,
+        "date": "2022-08-28",
+        "id": 64
+    },
+    {
+        "nbCollaborateursNecessaires": 238,
+        "nbCollaborateursPrevus": 273,
+        "nbSinistresPrevus": 1147,
+        "nbDepartementsImpactes": 68,
+        "nbProfessionnels": 628,
+        "nbParticuliers": 753,
+        "date": "2022-08-29",
+        "id": 65
+    },
+    {
+        "nbCollaborateursNecessaires": 220,
+        "nbCollaborateursPrevus": 320,
+        "nbSinistresPrevus": 2722,
+        "nbDepartementsImpactes": 65,
+        "nbProfessionnels": 255,
+        "nbParticuliers": 100,
+        "date": "2022-08-30",
+        "id": 66
+    },
+    {
+        "nbCollaborateursNecessaires": 740,
+        "nbCollaborateursPrevus": 324,
+        "nbSinistresPrevus": 502,
+        "nbDepartementsImpactes": 69,
+        "nbProfessionnels": 17,
+        "nbParticuliers": 112,
+        "date": "2022-08-31",
+        "id": 67
+    },
+    {
+        "nbCollaborateursNecessaires": 764,
+        "nbCollaborateursPrevus": 336,
+        "nbSinistresPrevus": 612,
+        "nbDepartementsImpactes": 50,
+        "nbProfessionnels": 486,
+        "nbParticuliers": 644,
+        "date": "2022-09-01",
+        "id": 68
+    },
+    {
+        "nbCollaborateursNecessaires": 800,
+        "nbCollaborateursPrevus": 480,
+        "nbSinistresPrevus": 2022,
+        "nbDepartementsImpactes": 66,
+        "nbProfessionnels": 532,
+        "nbParticuliers": 146,
+        "date": "2022-09-02",
+        "id": 69
+    },
+    {
+        "nbCollaborateursNecessaires": 235,
+        "nbCollaborateursPrevus": 218,
+        "nbSinistresPrevus": 2782,
+        "nbDepartementsImpactes": 53,
+        "nbProfessionnels": 972,
+        "nbParticuliers": 235,
+        "date": "2022-09-03",
+        "id": 70
+    },
+    {
+        "nbCollaborateursNecessaires": 233,
+        "nbCollaborateursPrevus": 317,
+        "nbSinistresPrevus": 2318,
+        "nbDepartementsImpactes": 13,
+        "nbProfessionnels": 960,
+        "nbParticuliers": 686,
+        "date": "2022-09-04",
+        "id": 71
+    },
+    {
+        "nbCollaborateursNecessaires": 650,
+        "nbCollaborateursPrevus": 777,
+        "nbSinistresPrevus": 2218,
+        "nbDepartementsImpactes": 22,
+        "nbProfessionnels": 77,
+        "nbParticuliers": 403,
+        "date": "2022-09-05",
+        "id": 72
+    },
+    {
+        "nbCollaborateursNecessaires": 573,
+        "nbCollaborateursPrevus": 194,
+        "nbSinistresPrevus": 918,
+        "nbDepartementsImpactes": 46,
+        "nbProfessionnels": 540,
+        "nbParticuliers": 191,
+        "date": "2022-09-06",
+        "id": 73
+    },
+    {
+        "nbCollaborateursNecessaires": 324,
+        "nbCollaborateursPrevus": 702,
+        "nbSinistresPrevus": 1563,
+        "nbDepartementsImpactes": 59,
+        "nbProfessionnels": 117,
+        "nbParticuliers": 451,
+        "date": "2022-09-07",
+        "id": 74
+    },
+    {
+        "nbCollaborateursNecessaires": 60,
+        "nbCollaborateursPrevus": 476,
+        "nbSinistresPrevus": 347,
+        "nbDepartementsImpactes": 21,
+        "nbProfessionnels": 635,
+        "nbParticuliers": 217,
+        "date": "2022-09-08",
+        "id": 75
+    },
+    {
+        "nbCollaborateursNecessaires": 748,
+        "nbCollaborateursPrevus": 131,
+        "nbSinistresPrevus": 1475,
+        "nbDepartementsImpactes": 35,
+        "nbProfessionnels": 13,
+        "nbParticuliers": 638,
+        "date": "2022-09-09",
+        "id": 76
+    },
+    {
+        "nbCollaborateursNecessaires": 187,
+        "nbCollaborateursPrevus": 651,
+        "nbSinistresPrevus": 455,
+        "nbDepartementsImpactes": 47,
+        "nbProfessionnels": 861,
+        "nbParticuliers": 747,
+        "date": "2022-09-10",
+        "id": 77
+    },
+    {
+        "nbCollaborateursNecessaires": 662,
+        "nbCollaborateursPrevus": 50,
+        "nbSinistresPrevus": 489,
+        "nbDepartementsImpactes": 53,
+        "nbProfessionnels": 934,
+        "nbParticuliers": 996,
+        "date": "2022-06-11",
+        "id": 78
+    },
+    {
+        "nbCollaborateursNecessaires": 674,
+        "nbCollaborateursPrevus": 697,
+        "nbSinistresPrevus": 1466,
+        "nbDepartementsImpactes": 34,
+        "nbProfessionnels": 48,
+        "nbParticuliers": 509,
+        "date": "2022-06-12",
+        "id": 79
+    },
+    {
+        "nbCollaborateursNecessaires": 566,
+        "nbCollaborateursPrevus": 403,
+        "nbSinistresPrevus": 1978,
+        "nbDepartementsImpactes": 33,
+        "nbProfessionnels": 816,
+        "nbParticuliers": 129,
+        "date": "2022-06-13",
+        "id": 80
+    },
+    {
+        "nbCollaborateursNecessaires": 423,
+        "nbCollaborateursPrevus": 717,
+        "nbSinistresPrevus": 2312,
+        "nbDepartementsImpactes": 48,
+        "nbProfessionnels": 229,
+        "nbParticuliers": 189,
+        "date": "2022-06-14",
+        "id": 81
+    },
+    {
+        "nbCollaborateursNecessaires": 334,
+        "nbCollaborateursPrevus": 487,
+        "nbSinistresPrevus": 1191,
+        "nbDepartementsImpactes": 31,
+        "nbProfessionnels": 109,
+        "nbParticuliers": 506,
+        "date": "2022-06-15",
+        "id": 82
+    },
+    {
+        "nbCollaborateursNecessaires": 636,
+        "nbCollaborateursPrevus": 684,
+        "nbSinistresPrevus": 2732,
+        "nbDepartementsImpactes": 27,
+        "nbProfessionnels": 552,
+        "nbParticuliers": 625,
+        "date": "2022-06-16",
+        "id": 83
+    },
+    {
+        "nbCollaborateursNecessaires": 705,
+        "nbCollaborateursPrevus": 756,
+        "nbSinistresPrevus": 1224,
+        "nbDepartementsImpactes": 6,
+        "nbProfessionnels": 495,
+        "nbParticuliers": 175,
+        "date": "2022-06-17",
+        "id": 84
+    },
+    {
+        "nbCollaborateursNecessaires": 638,
+        "nbCollaborateursPrevus": 169,
+        "nbSinistresPrevus": 2687,
+        "nbDepartementsImpactes": 41,
+        "nbProfessionnels": 607,
+        "nbParticuliers": 268,
+        "date": "2022-09-18",
+        "id": 85
+    },
+    {
+        "nbCollaborateursNecessaires": 295,
+        "nbCollaborateursPrevus": 431,
+        "nbSinistresPrevus": 577,
+        "nbDepartementsImpactes": 11,
+        "nbProfessionnels": 148,
+        "nbParticuliers": 513,
+        "date": "2022-09-19",
+        "id": 86
+    },
+    {
+        "nbCollaborateursNecessaires": 391,
+        "nbCollaborateursPrevus": 390,
+        "nbSinistresPrevus": 1320,
+        "nbDepartementsImpactes": 33,
+        "nbProfessionnels": 244,
+        "nbParticuliers": 922,
+        "date": "2022-09-20",
+        "id": 87
+    },
+    {
+        "nbCollaborateursNecessaires": 315,
+        "nbCollaborateursPrevus": 415,
+        "nbSinistresPrevus": 2746,
+        "nbDepartementsImpactes": 5,
+        "nbProfessionnels": 663,
+        "nbParticuliers": 187,
+        "date": "2022-09-21",
+        "id": 88
+    },
+    {
+        "nbCollaborateursNecessaires": 63,
+        "nbCollaborateursPrevus": 403,
+        "nbSinistresPrevus": 1982,
+        "nbDepartementsImpactes": 43,
+        "nbProfessionnels": 909,
+        "nbParticuliers": 750,
+        "date": "2022-09-22",
+        "id": 89
+    },
+    {
+        "nbCollaborateursNecessaires": 430,
+        "nbCollaborateursPrevus": 563,
+        "nbSinistresPrevus": 1000,
+        "nbDepartementsImpactes": 41,
+        "nbProfessionnels": 260,
+        "nbParticuliers": 341,
+        "date": "2022-09-23",
+        "id": 90
+    },
+    {
+        "nbCollaborateursNecessaires": 460,
+        "nbCollaborateursPrevus": 702,
+        "nbSinistresPrevus": 2039,
+        "nbDepartementsImpactes": 26,
+        "nbProfessionnels": 544,
+        "nbParticuliers": 119,
+        "date": "2022-09-24",
+        "id": 91
+    },
+    {
+        "nbCollaborateursNecessaires": 149,
+        "nbCollaborateursPrevus": 654,
+        "nbSinistresPrevus": 2353,
+        "nbDepartementsImpactes": 26,
+        "nbProfessionnels": 445,
+        "nbParticuliers": 808,
+        "date": "2022-09-25",
+        "id": 92
+    },
+    {
+        "nbCollaborateursNecessaires": 48,
+        "nbCollaborateursPrevus": 377,
+        "nbSinistresPrevus": 1509,
+        "nbDepartementsImpactes": 5,
+        "nbProfessionnels": 292,
+        "nbParticuliers": 777,
+        "date": "2022-09-26",
+        "id": 93
+    }
+]
