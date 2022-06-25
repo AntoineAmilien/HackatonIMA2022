@@ -24,7 +24,7 @@ export default function Home() {
                         <div className="hidden bg-cover lg:block lg:w-2/3" style={{ backgroundImage: "url(https://pompe-a-chaleur-france.fr/wp-content/uploads/2021/04/operateur2-2500x1667-1.jpeg)" }}>
                             <div className="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
                                 <div>
-                                    <h2 className="text-7xl font-bold text-white">PréColab</h2>
+                                    <h2 className="text-7xl font-bold text-white">PréCollab</h2>
 
                                     <p className="max-w-xl mt-3 text-gray-300">Un outil by IMH</p>
                                 </div>
