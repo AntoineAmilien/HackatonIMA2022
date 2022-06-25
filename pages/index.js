@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>IMH - PréColab</title>
+                <title>IMH - PréCollab</title>
                 <meta name="description" content="Outil IMH d&apos;aide a la planification et a la gestion de sisnistre en fonction des previsions météos." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
