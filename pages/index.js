@@ -2,10 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { useRouter } from 'next/router'
 
 export default function Home() {
+    const router = useRouter();
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => router.push('/clientBoard');
     console.log(errors);
 
   return (
