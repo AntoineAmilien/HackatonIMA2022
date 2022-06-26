@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import logo_IMA from "../public/logo_IMA.png"
 import { Tab } from '@headlessui/react'
-import PrevisionComponent from '../Components/Prevision'
-import Mapbox from '../Components/Mapbox';
+import PrevisionComponent from '../components/Prevision'
+import Mapbox from '../components/Mapbox';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
