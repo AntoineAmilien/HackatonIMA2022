@@ -7,13 +7,8 @@ export default function Mapbox() {
 
         const mapContainer = useRef()
       
-        // this is where all of our map logic is going to live
-        // adding the empty dependency array ensures that the map
-        // is only rendered once
         useEffect(() => {
-          // create the map and configure it
-          // check out the API reference for more options
-          // https://docs.mapbox.com/mapbox-gl-js/api/map/
+
           const map = new mapboxgl.Map({
             container: mapContainer.current,
             style: "mapbox://styles/mapbox/streets-v11",
@@ -69,6 +64,57 @@ export default function Mapbox() {
                 "line-width": 1,
               },
             })
+
+            map.addLayer({
+              id: "city-risk-1-fill",
+              type: "fill",
+              source: "city-risk-1",
+              paint: {
+                "fill-opacity": 0.4,
+                "fill-color": "green",
+              },
+            })
+
+            map.addLayer({
+              id: "city-risk-2-fill",
+              type: "fill",
+              source: "city-risk-2",
+              paint: {
+                "fill-opacity": 0.4,
+                "fill-color": "orange",
+              },
+            })
+
+            map.addLayer({
+              id: "city-risk-3-fill",
+              type: "fill",
+              source: "city-risk-3",
+              paint: {
+                "fill-opacity": 0.4,
+                "fill-color": "orange",
+              },
+            })
+
+            map.addLayer({
+              id: "city-risk-4-fill",
+              type: "fill",
+              source: "city-risk-4",
+              paint: {
+                "fill-opacity": 0.4,
+                "fill-color": "red",
+              },
+            })
+
+            map.addLayer({
+              id: "city-risk-5-fill",
+              type: "fill",
+              source: "city-risk-5",
+              paint: {
+                "fill-opacity": 0.4,
+                "fill-color": "red",
+              },
+            })
+
             map.addLayer({
               id: "house-1-skin",
               type: "line",
