@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logo_IMA from "../public/logo_IMA.png"
 import { Tab } from '@headlessui/react'
 import PrevisionComponent from '../components/prevision'
-import Mapbox from '../components/mapbox';
+import Mapbox from '../components/Mapbox';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
