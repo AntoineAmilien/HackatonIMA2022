@@ -51,6 +51,13 @@ export default function Mapbox() {
                 "https://france-geojson.gregoiredavid.fr/repo/departements/69-rhone/communes-69-rhone.geojson",
             })
 
+            map.addSource("house-1", {
+              type: "geojson",
+              data:
+              {"type":"FeatureCollection","features":[{"type":"Feature","geometry":
+              {"type":"Polygon","coordinates":[[[[[50,45],[425,844],[425,933],[354,933],[354,844]]]
+            ]]},"properties":{"code":"69242","nom":"Taponas"}}]}})
+
             map.addLayer({
               id: "dept-69-fill",
               type: "fill",
@@ -65,8 +72,17 @@ export default function Mapbox() {
               type: "line",
               source: "city-69",
               paint: {
-                "line-color": "#4B4B4B",
+                "line-color": "#A4A1A1",
                 "line-width": 1,
+              },
+            })
+            map.addLayer({
+              id: "house-1-skin",
+              type: "line",
+              source: "house-1",
+              paint: {
+                "line-color": "#000000",
+                "line-width": 2,
               },
             })
 
@@ -79,8 +95,57 @@ export default function Mapbox() {
               new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
             }
 
+            var center = turf.point([4.835659, 45.764043]);
+    var radius = 2;
+    var options = {
+      steps: 80,
+      units: 'kilometers'
+    };
+
+    var circle = turf.circle(center, radius, options);
+
+    map.addLayer({
+        "id": "circle-fill",
+        "type": "fill",
+        "source": {
+            "type": "geojson",
+            "data": circle
+        },
+        "paint": {
+            "fill-color": "pink",
+            "fill-opacity": 0.5
+        }
+    });
+    map.addLayer({
+        "id": "circle-outline",
+        "type": "fill",
+        "source": {
+            "type": "geojson",
+            "data": circle
+        },
+        "paint": {
+            "fill-color": "blue",
+            "fill-opacity": 0.1,
+        },
+        "layout": {
+
+        }
+    });
+    map.addLayer({
+      id: "city-69-line-69",
+      type: "line",
+      source: {
+        "type": "geojson",
+        "data": circle
+    },
+      paint: {
+        "line-color": "#6B6767",
+        "line-width": 4,
+      },
+    })
+
             map.resize()
-      
+            
           })
       
           // cleanup function to remove map on unmount

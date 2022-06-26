@@ -28,8 +28,9 @@ path{
 }
 
 .marker {
-  background-image: url("../public/svg/icons8-home-64.png");
-  width: 16px;
-  height: 16px;
+  background-image: url("../public/svg/icons8-page-d’accueil-24.png");
+  width: 24px;
+  height: 24px;
   cursor: pointer;
+  z-index: 50;
 }
