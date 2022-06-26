@@ -18,3 +18,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.marker {
+  background-image: url("../public/svg/icons8-accueil-24.png");
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 50;
+}
