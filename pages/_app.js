@@ -7,7 +7,6 @@ function MyApp({ Component, pageProps }) {
   <>
     <Head>
       <script src='https://npmcdn.com/@turf/turf/turf.min.js'/>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
      <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
     </Head>
     <Component {...pageProps} />
