@@ -32,9 +32,65 @@ export default function Mapbox() {
                     description: 'Washington, D.C.'
                   }
                 },
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.7782201767, 45.7752990723]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                },
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.7910184, 45.7297541]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                },
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.916667, 45.733333]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                },
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.8527487, 45.7092314]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                },
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    coordinates: [4.8901709, 45.771944]
+                  },
+                  properties: {
+                    title: 'Mapbox',
+                    description: 'Washington, D.C.'
+                  }
+                }
               ]
             };
 
+            // Map addSource
             map.addSource("dept-69", {
               type: "geojson",
               data:
@@ -166,21 +222,206 @@ export default function Mapbox() {
               new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
             }
 
+            // Circle 1
             var center = turf.point([4.835659, 45.764043]);
-    var radius = 2;
-    var options = {
-      steps: 80,
-      units: 'kilometers'
-    };
+            var radius = 2;
+            var options = {
+              steps: 80,
+              units: 'kilometers'
+            };
 
-    var circle = turf.circle(center, radius, options);
+            var circle = turf.circle(center, radius, options);
 
-    map.addLayer({
-        "id": "circle-fill",
+            // Circle 2
+            var center2 = turf.point([4.7782201767, 45.7752990723]);
+            var radius2 = 2;
+            var option2 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle2 = turf.circle(center2, radius2, option2);
+
+            // Circle 3
+            var center3 = turf.point([4.7910184, 45.7297541]);
+            var radius3 = 2;
+            var option3 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle3 = turf.circle(center3, radius3, option3);
+
+            // Circle 4
+            var center4 = turf.point([4.916667, 45.733333]);
+            var radius4 = 2;
+            var option4 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle4 = turf.circle(center4, radius4, option4);
+
+            // Circle 5
+            var center5 = turf.point([4.8527487, 45.7092314]);
+            var radius5 = 2;
+            var option5 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle5 = turf.circle(center5, radius5, option5);
+
+            // Circle 4
+            var center4 = turf.point([4.916667, 45.733333]);
+            var radius4 = 2;
+            var option4 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle4 = turf.circle(center4, radius4, option4);
+
+            // Circle 6
+            var center6 = turf.point([4.8901709, 45.771944]);
+            var radius6 = 2;
+            var option6 = {
+              steps: 80,
+              units: 'kilometers'
+            };
+
+            var circle6 = turf.circle(center6, radius6, option6);
+
+          // Circle 1
+          map.addLayer({
+              "id": "circle-fill",
+              "type": "fill",
+              "source": {
+                  "type": "geojson",
+                  "data": circle
+              },
+              "paint": {
+                  "fill-color": "pink",
+                  "fill-opacity": 0.5
+              }
+          });
+          map.addLayer({
+              "id": "circle-outline",
+              "type": "fill",
+              "source": {
+                  "type": "geojson",
+                  "data": circle
+              },
+              "paint": {
+                  "fill-color": "blue",
+                  "fill-opacity": 0.1,
+              },
+              "layout": {
+
+              }
+          });
+          map.addLayer({
+            id: "city-69-line-69",
+            type: "line",
+            source: {
+              "type": "geojson",
+              "data": circle
+          },
+            paint: {
+              "line-color": "#6B6767",
+              "line-width": 4,
+            },
+          })
+
+          // Circle 2
+          map.addLayer({
+            "id": "circle-fill2",
+            "type": "fill",
+            "source": {
+                "type": "geojson",
+                "data": circle2
+            },
+            "paint": {
+                "fill-color": "pink",
+                "fill-opacity": 0.5
+            }
+        });
+        map.addLayer({
+            "id": "circle-outline2",
+            "type": "fill",
+            "source": {
+                "type": "geojson",
+                "data": circle2
+            },
+            "paint": {
+                "fill-color": "blue",
+                "fill-opacity": 0.1,
+            },
+            "layout": {
+
+            }
+        });
+        map.addLayer({
+          id: "city-69-line-692",
+          type: "line",
+          source: {
+            "type": "geojson",
+            "data": circle2
+        },
+          paint: {
+            "line-color": "#6B6767",
+            "line-width": 4,
+          },
+        })
+
+        // Circle 3
+        map.addLayer({
+          "id": "circle-fill3",
+          "type": "fill",
+          "source": {
+              "type": "geojson",
+              "data": circle3
+          },
+          "paint": {
+              "fill-color": "pink",
+              "fill-opacity": 0.5
+          }
+      });
+      map.addLayer({
+          "id": "circle-outline3",
+          "type": "fill",
+          "source": {
+              "type": "geojson",
+              "data": circle3
+          },
+          "paint": {
+              "fill-color": "blue",
+              "fill-opacity": 0.1,
+          },
+          "layout": {
+
+          }
+      });
+      map.addLayer({
+        id: "city-69-line-693",
+        type: "line",
+        source: {
+          "type": "geojson",
+          "data": circle3
+      },
+        paint: {
+          "line-color": "#6B6767",
+          "line-width": 4,
+        },
+      })
+
+      // Circle 4
+      map.addLayer({
+        "id": "circle-fill4",
         "type": "fill",
         "source": {
             "type": "geojson",
-            "data": circle
+            "data": circle4
         },
         "paint": {
             "fill-color": "pink",
@@ -188,11 +429,11 @@ export default function Mapbox() {
         }
     });
     map.addLayer({
-        "id": "circle-outline",
+        "id": "circle-outline4",
         "type": "fill",
         "source": {
             "type": "geojson",
-            "data": circle
+            "data": circle4
         },
         "paint": {
             "fill-color": "blue",
@@ -203,11 +444,11 @@ export default function Mapbox() {
         }
     });
     map.addLayer({
-      id: "city-69-line-69",
+      id: "city-69-line-694",
       type: "line",
       source: {
         "type": "geojson",
-        "data": circle
+        "data": circle4
     },
       paint: {
         "line-color": "#6B6767",
@@ -215,13 +456,95 @@ export default function Mapbox() {
       },
     })
 
-            map.resize()
+     // Circle 6
+     map.addLayer({
+      "id": "circle-fill6",
+      "type": "fill",
+      "source": {
+          "type": "geojson",
+          "data": circle6
+      },
+      "paint": {
+          "fill-color": "pink",
+          "fill-opacity": 0.5
+      }
+  });
+  map.addLayer({
+      "id": "circle-outline6",
+      "type": "fill",
+      "source": {
+          "type": "geojson",
+          "data": circle6
+      },
+      "paint": {
+          "fill-color": "blue",
+          "fill-opacity": 0.1,
+      },
+      "layout": {
+
+      }
+  });
+  map.addLayer({
+    id: "city-69-line-696",
+    type: "line",
+    source: {
+      "type": "geojson",
+      "data": circle6
+  },
+    paint: {
+      "line-color": "#6B6767",
+      "line-width": 4,
+    },
+  })
+  // Circle 5
+  map.addLayer({
+    "id": "circle-fill6",
+    "type": "fill",
+    "source": {
+        "type": "geojson",
+        "data": circle6
+    },
+    "paint": {
+        "fill-color": "pink",
+        "fill-opacity": 0.5
+    }
+});
+map.addLayer({
+    "id": "circle-outline5",
+    "type": "fill",
+    "source": {
+        "type": "geojson",
+        "data": circle5
+    },
+    "paint": {
+        "fill-color": "blue",
+        "fill-opacity": 0.1,
+    },
+    "layout": {
+
+    }
+});
+map.addLayer({
+  id: "city-69-line-695",
+  type: "line",
+  source: {
+    "type": "geojson",
+    "data": circle5
+},
+  paint: {
+    "line-color": "#6B6767",
+    "line-width": 4,
+  },
+})
+
+
+                  map.resize()
+                  
+                })
             
-          })
-      
-          // cleanup function to remove map on unmount
-          return () => map.remove()
-        }, [])
+                // cleanup function to remove map on unmount
+                return () => map.remove()
+              }, [])
       
         return <div style={{height: '500px'}} className='w-full' ref={mapContainer}  />
       }
