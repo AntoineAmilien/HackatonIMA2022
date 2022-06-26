@@ -51,13 +51,6 @@ export default function Mapbox() {
                 "https://france-geojson.gregoiredavid.fr/repo/departements/69-rhone/communes-69-rhone.geojson",
             })
 
-            map.addSource("house-1", {
-              type: "geojson",
-              data:
-              {"type":"FeatureCollection","features":[{"type":"Feature","geometry":
-              {"type":"Polygon","coordinates":[[[[[50,45],[425,844],[425,933],[354,933],[354,844]]]
-            ]]},"properties":{"code":"69242","nom":"Taponas"}}]}})
-
             map.addLayer({
               id: "dept-69-fill",
               type: "fill",
@@ -95,14 +88,16 @@ export default function Mapbox() {
               new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
             }
 
+            // First House
             var center = turf.point([4.835659, 45.764043]);
-    var radius = 2;
-    var options = {
-      steps: 80,
-      units: 'kilometers'
-    };
+            var radius = 2;
+            var options = {
+              steps: 80,
+              units: 'kilometers'
+            };
 
-    var circle = turf.circle(center, radius, options);
+            var circle = turf.circle(center, radius, options);
+            
 
     map.addLayer({
         "id": "circle-fill",
