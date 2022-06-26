@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Image from 'next/image'
 import logo_IMA from "../public/logo_IMA.png"
 import { Tab } from '@headlessui/react'
-import PrevisionComponent from '../components/prevision'
-import Mapbox from '../components/Mapbox';
+import PrevisionComponent from '../Components/Prevision'
+import Mapbox from '../Components/Mapbox';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -14,7 +14,6 @@ const clientBoard = () => {
 
     return (<>
         <div className=" w-full px-5 md:px-20 pb-10">
-
 
             <div className="relative z-10 flex items-end justify-between pt-4 lg:pt-20 pb-6 border-b border-gray-200">
                 <div className='w-full flex items-end '>
