@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo_IMA from "../public/logo_IMA.png"
 import { Tab } from '@headlessui/react'
 import PrevisionComponent from '../components/prevision'
+import Mapbox from '../components/mapbox';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -70,7 +71,9 @@ const clientBoard = () => {
                 <Tab.Panels className="border-4 border-dashed border-gray-200 p-4 rounded-lg  mt-6 ">
 
 
-                    <Tab.Panel>Carte</Tab.Panel>
+                    <Tab.Panel>
+                        <Mapbox />
+                    </Tab.Panel>
 
 
 
