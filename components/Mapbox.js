@@ -546,5 +546,27 @@ map.addLayer({
                 return () => map.remove()
               }, [])
       
-        return <div style={{height: '500px'}} className='w-full' ref={mapContainer}  />
+        return (
+          <div className='relative'>
+            <div className='absolute w-40 bg-white z-50 top-2 right-2 space-y-2 p-4 rounded-lg'>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-green-400 w-12 h-6'/>
+                <h3 className='text-sm'>Faible</h3>
+              </div>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-orange-400 w-12 h-6'/>
+                <h3 className='text-sm'>Modéré</h3>
+              </div>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-red-400 w-12 h-6'/>
+                <h3 className='text-sm'>Élevé</h3>
+              </div>
+
+            </div>
+            <div style={{height: '500px'}} className='w-full' ref={mapContainer}/>
+          </div>
+        ) 
       }
