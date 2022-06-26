@@ -167,53 +167,57 @@ export default function Mapbox() {
             }
 
             var center = turf.point([4.835659, 45.764043]);
-    var radius = 2;
-    var options = {
-      steps: 80,
-      units: 'kilometers'
-    };
+            var radius = 2;
+            var options = {
+              steps: 80,
+              units: 'kilometers'
+            };
 
-    var circle = turf.circle(center, radius, options);
+            var circle = turf.circle(center, radius, options);
 
-    map.addLayer({
-        "id": "circle-fill",
-        "type": "fill",
-        "source": {
-            "type": "geojson",
-            "data": circle
-        },
-        "paint": {
-            "fill-color": "pink",
-            "fill-opacity": 0.5
-        }
-    });
-    map.addLayer({
-        "id": "circle-outline",
-        "type": "fill",
-        "source": {
-            "type": "geojson",
-            "data": circle
-        },
-        "paint": {
-            "fill-color": "blue",
-            "fill-opacity": 0.1,
-        },
-        "layout": {
+            map.addLayer({
+              "id": "circle-fill",
+              "type": "fill",
+              "source": {
+                  "type": "geojson",
+                  "data": circle
+              },
+              "paint": {
+                  "fill-color": "pink",
+                  "fill-opacity": 0.5
+              }
+            });
+            map.addLayer({
+              "id": "circle-outline",
+              "type": "fill",
+              "source": {
+                  "type": "geojson",
+                  "data": circle
+              },
+              "paint": {
+                  "fill-color": "blue",
+                  "fill-opacity": 0.1,
+              },
+              "layout": {
 
-        }
-    });
-    map.addLayer({
-      id: "city-69-line-69",
-      type: "line",
-      source: {
-        "type": "geojson",
-        "data": circle
-    },
-      paint: {
-        "line-color": "#6B6767",
-        "line-width": 4,
-      },
-    })
+              }
+            });
+            map.addLayer({
+              id: "city-69-line-69",
+              type: "line",
+              source: {
+                "type": "geojson",
+                "data": circle
+            },
+            paint: {
+              "line-color": "#6B6767",
+              "line-width": 4,
+            },
+          })
+
+          map.on('click', 'city-risk-1-fill', function(e){
+            console.log(e);
+          });
 
             map.resize()
             
@@ -223,5 +227,27 @@ export default function Mapbox() {
           return () => map.remove()
         }, [])
       
-        return <div style={{height: '500px'}} className='w-full' ref={mapContainer}  />
+        return (
+          <div className='relative'>
+            <div className='absolute w-40 bg-white z-50 top-2 right-2 space-y-2 p-4 rounded-lg'>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-green-400 w-12 h-6'/>
+                <h3 className='text-sm'>Faible</h3>
+              </div>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-orange-400 w-12 h-6'/>
+                <h3 className='text-sm'>Modéré</h3>
+              </div>
+
+              <div className='flex align-items space-x-4'>
+                <div className='bg-red-400 w-12 h-6'/>
+                <h3 className='text-sm'>Élevé</h3>
+              </div>
+
+            </div>
+            <div style={{height: '500px'}} className='w-full' ref={mapContainer}/>
+          </div>
+        ) 
       }
